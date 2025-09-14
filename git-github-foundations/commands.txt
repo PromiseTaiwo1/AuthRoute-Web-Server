@@ -1,7 +1,12 @@
 git init - initializes a new Git repository
-git add . - stages all files for commit
+git clone <repo_url> - creates a local copy of a remote repository
+git add . - stages all files in the current directory for commit
+git add <file> - stages a specific file for commit
 git commit -m "message" - records a snapshot of staged changes
 git status - shows the current state of your working directory and staging area
 git log - shows the commit history of the repository
-git branch - lists all branches and shows the current branch
+git branch - lists all branches and highlights the current branch
+git checkout <branch> - switches to a different branch
+git push origin <branch> - uploads your local commits to the remote repository
+git pull origin <branch> - fetches and merges changes from the remote repository
 
